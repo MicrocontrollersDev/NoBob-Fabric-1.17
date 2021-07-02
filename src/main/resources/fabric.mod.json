@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "nobob",
+  "version": "${version}",
+
+  "name": "NoBob-Fabric",
+  "description": "This mod allows you to get the beloved (no)bob animation.",
+  "authors": [
+    "JumpingPxl"
+  ],
+  "contact": {
+    "sources": "https://github.com/JumpingPxl/NoBob-Fabric-1.17"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nobob/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.jumpingpxl.fabric.nobob.NoBob"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
